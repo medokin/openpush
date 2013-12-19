@@ -1,6 +1,6 @@
 {
   "name": "openpush",
-  "namespace": "openpush",
+  "namespace": "appkit",
   "APIMethod": "stub",
   "proxyURL": "http://localhost:8000",
   "version": "0.0.1",
@@ -19,7 +19,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "",
+  "author": "Nikodem Jaworski <nikodemjaworski@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "express": "~3.4.2",
