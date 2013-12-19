@@ -1,9 +1,9 @@
 {
-  "name": "app-kit",
-  "namespace": "appkit",
+  "name": "openpush",
+  "namespace": "openpush",
   "APIMethod": "stub",
   "proxyURL": "http://localhost:8000",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stefanpenner/ember-app-kit.git"
+    "url": ""
   },
   "author": "",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "bower": "~1.2.7",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.9",
-    "load-grunt-config": "git://github.com/Pradeek/load-grunt-config.git",
+    "load-grunt-config": "~0.7.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
