@@ -1,0 +1,11 @@
+<h2>ProjectsIndex</h2>
+
+<ul>
+    {{#each project in model}}
+        <li>Hello, {{project.title}}! {{human-time project.created}}</li>
+
+    {{else}}
+        Keine gefunden
+    {{/each}}
+</ul>
+
