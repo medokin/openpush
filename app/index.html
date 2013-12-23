@@ -10,7 +10,10 @@
   <!-- build:css(tmp/result) assets/app.min.css -->
   <link rel="stylesheet" href="/assets/app.css">
   <!-- endbuild -->
-
+  <!-- @if dist=false -->
+  <link rel="stylesheet" href="/assets/debug.css">
+  <!-- @endif -->
+  
   <!-- for more details visit: https://github.com/yeoman/grunt-usemin -->
 
   <!-- build:js(tmp/result) assets/config.min.js -->
